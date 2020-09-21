@@ -1,0 +1,192 @@
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+}
+
+img {
+    padding: 5px;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HOME - index */
+.bluetooth {
+    color: rgb(9, 153, 201);
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0 50px 0;
+    border: 1px solid rgb(9, 153, 201);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.bluetooth2 {
+    color: rgb(9, 153, 201);
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0 50px 0;
+}
+
+#bl {
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+#bl2 {
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+#connectable {
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: .8rem;
+    padding: 5px;
+}
+
+#bluetooth {
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: .8rem;
+    padding: 5px;
+}
+
+/* ABOUT */
+.alfred {
+    color: rgb(9, 153, 201);
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding: 10px;
+    margin: 50px 0 50px 0;
+}
+
+#p1-about {
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+#p2-about {
+    font-weight: 200;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.contact-details {
+    float: left;
+    align-content: space-between;
+}
+
+#email {
+    padding: 7px;
+    margin: 3px;
+}
+
+/* .support {
+    margin-left: .5%;
+} */
+
+#terms {
+    padding: 7px;
+    margin: 3px;
+}
+
+#privacy {
+    padding: 7px;
+    margin: 3px;
+}
+
+/* MENU */
+.nav {
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: rgba(17, 125, 161, 0.918);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #ddddddd2;
+    color: #000000;
+}
+
+.nav a:active {
+    background-color: #4c82af;
+    color: #ffffff;
+}
+
+.nav .icon {
+    display: none;
+}
+
+/* MY DEVICES - CARDS */
+.row {
+    margin: 0;
+}
+
+.row:after {
+    flex: 1 auto;
+    content: "";
+    display: flex;
+    flex-direction: column;
+    clear: both;
+}
+
+.column {
+    max-width: 40%;
+    padding: 0 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    padding: 16px;
+    text-align: left;
+    max-width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(17, 125, 161, 0.918);
+    color: white;
+    text-align: center;
+}
+
+.footer li a {
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
