@@ -6,13 +6,6 @@
     align-items: center;
 }
 
-img {
-    padding: 5px;
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
 h1 {
     font-size: 2.2rem;
 }
@@ -158,15 +151,33 @@ a {
 }
 
 .column {
-    max-width: 40%;
+    max-width: 100%;
     padding: 0 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
     padding: 16px;
+    margin: 10px;
     text-align: left;
-    max-width: 100%;
+    height: auto;
+}
+
+.card span {
+    
+}
+
+.card span i {
+    float: right;
+    margin-top: 3vw;
+}
+
+/* IMAGE */
+img {
+    margin-right: 3px;
+    max-width: 10%;
     height: auto;
 }
 
